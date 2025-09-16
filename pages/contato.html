@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
 </head>
 <body>
-    <legend>Contrate-nos</legend>
+    <div id="topo">
+        <h1>Livraria John & Paul</h1>
+        <h2>Livros novos e usados com os melhores preços para você.</h2>
+    </div>
 
+    <div class="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/produtos.html">Livros</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="../pages/sobre.html">John & Paul</a></li>
+            <li><a href="../pages/contato.html">Contate-nos</a></li>
+        </ul>
+    </div>
+    <br>
+    <legend>Contate-nos</legend>
+
+    <form action="processar-envio" method="post">
     <table>
         <tbody>
             <tr>
@@ -16,11 +33,11 @@
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
-                <td><input type="text" name="email" id="email"></td>
+                <td><input type="email" placeholder="nome@exemplo.com"></td>
             </tr>
             <tr>
                 <td><label for="telefone">Telefone</label></td>
-                <td><input type="text" name="telefone" id="telefone"></td>
+                <td><input type="tel" placeholder="(XX) XXXXX-XXXX" /></td>
             </tr>
             <tr>
                 <td><label for="assunto">Assunto</label></td>
@@ -34,12 +51,26 @@
             </tr>
             <tr>
                 <td><label for="mensagem">Mensagem</label></td>
-                <td><textarea name="areatexto" id="mensagem" cols="30" rows="10"></textarea></td>
+                <td><textarea name="areatexto" id="mensagem" cols="30" rows="10" placeholder="Mensagem...."></textarea></td>
             </tr>
         </tbody>
     </table>
     <input type="checkbox" name="notificacao" id="notificacao">
     Desejo receber informações sobre a Livraria John e Paul
-    <button>Enviar</button>
+    <br>
+    <button type="submit"><a href="#">Enviar</a></button>
+    <button type="reset">Resetar</button>
+    </form>
+    <br>
+    <div id="rodape">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/produtos.html">Livros</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="../pages/sobre.html">John & Paul</a></li>
+            <li><a href="../pages/contato.html">Contate-nos</a></li>
+        </ul>
+        <p>2014. Livraria John & Paul - Todos os direitos reservados</p>
+    </div>
 </body>
 </html>

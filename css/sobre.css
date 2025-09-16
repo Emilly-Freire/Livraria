@@ -8,34 +8,22 @@
     background-color: rgb(255, 255, 133);
 }
 
-h1 {
+.primeirotitulo {
     color: red;
 }
 
-.titulodestaque {
-    color: blue;
+h3 {
+    color: red;
 }
 
-img {
-    width: 150px;
-    height: 230px;
+.valor {
+    padding-left: 20px;
 }
 
-.livros {
-    font-size: 25px;
-}
-
-#menu ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-#rodape ul {
-    text-align: center;
-    list-style: none;
     display: flex;
     gap: 20px;
 }

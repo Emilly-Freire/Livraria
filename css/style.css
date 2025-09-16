@@ -1,11 +1,11 @@
 * {
     /*margin: 0;*/
     padding: 0;
+    margin: 0;
 }
 
 #topo {
     text-align: center;
-    background-color: rgb(255, 255, 133);
 }
 
 h1 {
@@ -26,11 +26,32 @@ img {
 }
 
 #menu ul {
+    background-color: rgb(255, 204, 37);
     list-style: none;
-    margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
+}
+
+#menu ul li{
+    margin: 0;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 20px 20px;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(255, 215, 84);
+}
+
+a {
+    text-decoration: none;
+}
+
+.livros {
+    list-style: none;
 }
 
 #rodape ul {
@@ -40,7 +61,21 @@ img {
     gap: 20px;
 }
 
+#rodape ul li a {
+    display: block;
+    padding: 20px 20px;
+}
+
+
+#rodape ul li a:hover {
+    background-color: rgb(255, 215, 84);
+}
+
 #rodape {
     text-align: center;
-    background-color: rgb(255, 255, 133);
+    background-color: rgb(255, 204, 37);
+}
+
+#rodape p {
+    margin-bottom: 20px;
 }
